@@ -4,7 +4,6 @@ frontend:
     preBuild:
       commands:
         - npm ci
-        - amplifyPush -e $AWS_BRANCH --simple
     build:
       commands:
         - npm run build
