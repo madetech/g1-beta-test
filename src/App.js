@@ -6,6 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
+import Dashboard from './dashboard.js'
+
 // import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 // const App = () => (
@@ -16,8 +18,6 @@ import {
 // );
 
 import Amplify, { Auth } from 'aws-amplify';
-import awsconfig from './aws-exports';
-Amplify.configure(awsconfig);
 
 
 export default function App() {
@@ -54,10 +54,4 @@ function Home() {
   return <h2>Home</h2>;
 }
 
-function Dashboard() 
 
-
-
-{
-  return <h2>This is the Dashboard</h2>;
-}
