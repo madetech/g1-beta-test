@@ -6,6 +6,7 @@ const Dashboard = () => (
       <header className="App-header">
           This is the Dashboard
       </header>
+      <AmplifySignOut/>
     </div>
   );
 
